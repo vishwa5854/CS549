@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cdb4da17-252d-4e91-82c1-922eebebb57a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Assignment1-FTP.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment1-FTP.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment1-FTP.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment1-FTP.pdf" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+  </component>
+  <component name="ProjectId" id="2QSwkgnWVx4p17KgzBNXllycOcp" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/dduggan/Documents/Teach/CS549/Classes/2023-Fall/Assignments/Assignment1-FTP/Assignment1-Code/ftp/pom.xml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.packagesearch.PackageSearchGeneralConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb4da17-252d-4e91-82c1-922eebebb57a" name="Changes" comment="" />
+      <created>1685360436360</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685360436360</updated>
+      <workItem from="1685360437927" duration="21000" />
+      <workItem from="1685360465628" duration="399000" />
+      <workItem from="1685360874606" duration="109000" />
+      <workItem from="1685360988347" duration="279000" />
+      <workItem from="1685361275584" duration="729000" />
+      <workItem from="1685472497796" duration="1540000" />
+      <workItem from="1685474049373" duration="125000" />
+      <workItem from="1685474183204" duration="336000" />
+      <workItem from="1685474783129" duration="6053000" />
+      <workItem from="1685482419962" duration="618000" />
+      <workItem from="1685483181628" duration="1472000" />
+      <workItem from="1685493058000" duration="990000" />
+      <workItem from="1685500044859" duration="1759000" />
+      <workItem from="1685527454291" duration="98000" />
+      <workItem from="1685531499192" duration="348000" />
+      <workItem from="1694637844002" duration="69000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>edu.stevens.cs549</groupId>
+    <artifactId>ftp</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <name>ftp</name>
+    <url>http://maven.apache.org</url>
+
+    <licenses>
+        <license></license>
+    </licenses>
+    <developers>
+        <developer>
+            <id>dduggan</id>
+            <name>Dominic Duggan</name>
+            <email>dduggan@stevens.edu</email>
+            <url>http://www.dominicduggan.org</url>
+            <organization>Stevens Institute of Technology</organization>
+            <organizationUrl>http://www.stevens.edu</organizationUrl>
+        </developer>
+    </developers>
+
+    <modules>
+        <module>../ftp-interface</module>
+        <module>../ftp-server</module>
+        <module>../ftp-client</module>
+    </modules>
+
+    <properties>
+
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+
+        <server.path>root</server.path>
+        <server.name>ftpd</server.name>
+        <server.ip>localhost</server.ip>
+        <server.port>5050</server.port>
+
+        <client.name>ftp</client.name>
+        <client.ip>localhost</client.ip>
+
+        <!-- Where to distribute jar files (using maven). -->
+        <client.dist>${user.home}/tmp/cs549/ftp-test</client.dist>
+        <server.dist>${client.dist}</server.dist>
+
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <descriptorRefs>
+                        <descriptorRef>project</descriptorRef>
+                    </descriptorRefs>
+                </configuration>
+            </plugin>
+        </plugins>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>edu.stevens.cs549</groupId>
+                <artifactId>ftp-interface</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.12</version>
+                <scope>test</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+</project>
